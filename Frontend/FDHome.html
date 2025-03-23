@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fixed Deposit Manager</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Fixed Deposits</h1>
+
+    <form id="fdform">
+    <div id="fdlist">
+        <h3><label for="bankname">Bank Name </label></h3> 
+        <input type="text" id="bankname" placeholder="Bank Name" required><br>
+        <h3><label for="slipnumber">Slip Number </label></h3> 
+        <input type="number" id="slipnumber" placeholder="FD Slip Number" required><br>
+        <h3><label for="amount">Amount </label></h3> 
+        <input type="number" id="amount" placeholder="Amount" required><br>
+        <h3><label for="start_date">Start Date </label></h3> 
+        <input type="date" id="start_date" required><br>
+        <h3><label for="mat_date">Maturity Date </label></h3> 
+        <input type="date" id="mat_date" required><br>
+        <h3><label for="slip_file">Upload Slip </label></h3> 
+        <input type="file" id="slip_file"><br>
+        
+        <div class="fd-button">
+        <button type="submit">Save FD</button>
+        </div>
+    </div>    
+    </form>
+
+ <!--   <div id="dfList"></div> -->
+
+
+
+</body>
+</html>
